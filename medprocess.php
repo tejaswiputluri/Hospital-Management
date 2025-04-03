@@ -1,6 +1,6 @@
 <?php
 if ($_FILES['image']['error'] == UPLOAD_ERR_OK) {
-    $apiKey = "AIzaSyBthqrlYb2c4kLb6ne7YuMjdzDZrjn36dI";
+    $apiKey = "YOUR_API_KEY";
     $imagePath = $_FILES['image']['tmp_name'];
     $imageData = base64_encode(file_get_contents($imagePath));
 
