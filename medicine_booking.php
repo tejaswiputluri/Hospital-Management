@@ -6,6 +6,8 @@ if(!isset($_SESSION['user_id'])) {
 }
 ?>
 <head>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/colors.css">
     <link rel="stylesheet" href="css/medicine_booking.css">
 </head>
